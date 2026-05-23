@@ -17,6 +17,9 @@ public class Main {
             System.out.println("Результат: " + (num1 + num2));
         } else if (operation == '-') {
             System.out.println("Результат: " + (num1 - num2));
+        } else if (operation == '/') {
+            if(num2 == 0) {System.out.println("Ошибка: на ноль делить нельзя!");}
+            else{System.out.println("Результат: " + (num1 / num2));}
         } else {
             System.out.println("Ошибка: неизвестная операция!");
         }
