@@ -7,7 +7,7 @@ public class Main {
         System.out.print("Введите первое число: ");
         double num1 = scanner.nextDouble();
 
-        System.out.print("Введите операцию (+, -): ");
+        System.out.print("Введите операцию (+, -, /): ");
         char operation = scanner.next().charAt(0);
 
         System.out.print("Введите второе число: ");
